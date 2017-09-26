@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jewelstone:
+    image: alpine:3.6
+    restart: always
+    volumes:
+      - ./volumes/jewelstone:/opt/bin:ro
+    environment:
+      LINE_TOKEN: $LINE_TOKEN
+    command: /opt/bin/run.sh
