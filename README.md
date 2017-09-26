@@ -6,6 +6,8 @@
 
 - 毎日 7:00 と 19:00 にジュエルストーンの回収を通知
 
+    ![jewelstone](assets/jewelstone.png)
+
 ## 動作環境
 
 - [Docker](https://www.docker.com)
